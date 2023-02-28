@@ -1,0 +1,123 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+body{
+    width:100vw;
+    height:100vh;
+    background-color:rgb(59, 88, 120);
+}
+
+.form-section{
+    width:100vw;
+    height:100vh;
+    padding:2rem;
+}
+
+.form{
+    border: 2px solid rgb(194, 190, 190);
+    display:flex;
+    flex-direction: column;
+    background-color:rgba(88, 134, 183, 0.3);
+    padding:1.5rem;
+}
+.form-title{
+    font-family: 'Oswald';
+    font-weight: 500;
+    font-size: 2rem;
+    color:azure;
+    text-align: center;
+    padding:2rem 0;
+}
+.grid-page{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 
+    'input  output';
+}
+
+.input{
+    grid-area: input;
+   
+}
+
+.personal-info{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.info-label{
+    font-family:'Oswald';
+    font-weight:300;
+    font-size:1.5rem;
+    color:azure;
+    padding:0.5rem;
+
+}
+.form-reg-input{
+   width:50%;
+   padding:16px;
+   outline: none;
+   background-color:rgb(224, 220, 220);;
+   border:none;
+   border-radius:5px;
+   color:rgb(135, 12, 37);
+   font-style:italic;
+}
+.form-input{
+    width:100%;
+    display:flex;
+    flex-direction: column;
+     align-items: center;
+    justify-content: center; 
+}
+
+::placeholder{
+    color:azure;
+}
+
+.textarea{
+    width:50%;
+    resize:none;
+    outline: none;
+    background-color:rgb(224, 220, 220);
+    color:rgb(135, 12, 37);
+    font-style:italic;
+    padding:16px;
+}
+
+.validate{
+    background-image: url(./image/validate.png);
+    border:3px solid rgb(23, 124, 23);
+    background-repeat: no-repeat;
+    background-position: 90%;
+}
+
+.not-validate{
+    background-image: url(./image/notValidate.png);
+    border:3px solid rgb(153, 10, 10);
+    background-repeat: no-repeat;
+    background-position: 90%;
+}
+
+.button{
+    display:flex;
+    padding:16px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.sub-btn{
+    width:20%;
+    padding:1rem 2rem;
+    border-radius:10px;
+    font-family:'Oswald';
+    font-size:1rem;
+    background-color:rgb(135, 12, 37);
+    color:azure;
+    letter-spacing: 1.5px;
+}

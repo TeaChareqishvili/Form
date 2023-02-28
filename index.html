@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@600&family=Open+Sans:wght@300;400;700&family=Oswald:wght@300;400;700&family=Raleway:ital,wght@1,500&family=Roboto+Mono:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <title>Form</title>
+</head>
+<body>
+    <section class="form-section">
+        <div class="grid-page">
+            <div class="input">
+                <form  class="form" id="form" method="#" novalidate>
+                   <div>
+                      <h1 class="form-title">Application form</h1>
+                   </div>
+                   <div class="personal-info">
+                    <div class="form-input">
+                        <label for="name" class="info-label"> Name: </label>
+                            <input class="form-reg-input" id="name" type="text" minlenght="2" placeholder="Enter your name" >
+                        
+                    </div>
+                   <div class="form-input">
+                    <label for="last-name" class="info-label"> Last Name: </label>
+                        <input class="form-reg-input" id="last-name" type="text" minlenght="2" placeholder="Enter your last name" >
+                    
+                   </div>
+                    <div class="form-input">
+                        <label for="email" class="info-label"> Email: </label>
+                            <input class="form-reg-input" id="email" type="mail"  placeholder="Enter your email" >
+                        
+                    </div>
+                    <div class="form-input">  
+                        <label for="number" class="info-label"> Phone number:</label>
+                        <input class="form-reg-input" id="number" type="number"  placeholder="Enter your phone number" >
+                     
+                    </div>
+                    <div class="form-input">
+                        <label for="country" class="info-label"> Country: </label>
+                            <input class="form-reg-input" id="country" type="text"  placeholder="Enter your country" >   
+                    </div>
+                    <div class="form-input"> 
+                        <label class="info-label"> Tell us about yourself:</label>
+                        <textarea  class="textarea" rows="6" cols="30" placeholder="I am..."></textarea>  
+                    </div>
+                   </div>
+                   <div class="button">
+                    <button type="submit" class="sub-btn">Submit</button>
+                   </div>
+                </form>
+            </div>
+            <div class="output"></div>
+        </div>
+    </section>
+</body>
+</html>
